@@ -35,6 +35,37 @@
       <version>4.1.68.Final</version>
     </dependency>
 
+    <!--marshalling start 2.0.12.Final -->
+    <!-- https://mvnrepository.com/artifact/org.jboss.marshalling/jboss-marshalling -->
+    <dependency>
+      <groupId>org.jboss.marshalling</groupId>
+      <artifactId>jboss-marshalling</artifactId>
+      <version>1.3.0.CR9</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.jboss.marshalling/jboss-marshalling-serial -->
+    <dependency>
+      <groupId>org.jboss.marshalling</groupId>
+      <artifactId>jboss-marshalling-serial</artifactId>
+      <version>1.3.0.CR9</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>31.0.1-jre</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java -->
+    <dependency>
+      <groupId>com.google.protobuf</groupId>
+      <artifactId>protobuf-java</artifactId>
+      <version>3.19.4</version>
+    </dependency>
+
+    <!--marshalling end-->
   </dependencies>
 
   <build>
